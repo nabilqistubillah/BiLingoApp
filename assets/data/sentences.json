@@ -1,0 +1,22 @@
+[
+  {
+    "english": "I like to eat apples",
+    "translation": ["Saya", "suka", "makan", "apel"]
+  },
+  {
+    "english": "She is reading a book",
+    "translation": ["Dia", "sedang", "membaca", "sebuah", "buku"]
+  },
+  {
+    "english": "We go to school every day",
+    "translation": ["Kami", "pergi", "ke", "sekolah", "setiap", "hari"]
+  },
+  {
+    "english": "I eat breakfast every morning",
+    "translation": ["saya", "sarapan", "setiap", "pagi"]
+  },
+  {
+    "english": "She watches TV every night",
+    "translation":["Dia", "menonton", "TV", "setiap", "malam"]
+  }
+]
