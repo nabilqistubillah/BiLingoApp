@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36984319417",
+    "project_id": "lingobill-be2fd",
+    "storage_bucket": "lingobill-be2fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36984319417:android:7baf520c97a532f1011a68",
+        "android_client_info": {
+          "package_name": "com.example.bilingo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Kha0VaaxFaCwwEo6LH8CxQMFdiGbVqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36984319417:android:b3314223ab9c7a88011a68",
+        "android_client_info": {
+          "package_name": "com.kml.BiLingo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Kha0VaaxFaCwwEo6LH8CxQMFdiGbVqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
