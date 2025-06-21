@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
-
+import 'package:bilingo/services/user_service.dart';
 class Sentence {
   final String english;
   final List<String> translation;
+  
 
   Sentence({required this.english, required this.translation});
 
@@ -93,10 +94,12 @@ class _SentenceScreenState extends State<SentenceScreen> {
     });
   }
 
-  void checkAnswer() {
+  Future <void> checkAnswer() async{
+   
     final correct = allSentences[currentSentenceIndex].translation;
 
     if (userAnswer.join(' ') == correct.join(' ')) {
+       await UserService.addXp(10);
       showDialog(
         context: context,
         builder: (_) => AlertDialog(

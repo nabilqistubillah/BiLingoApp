@@ -18,6 +18,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   http: ^0.13.6
   cloud_firestore: ^4.15.5
+  font_awesome_flutter: ^10.6.0
+  percent_indicator: ^4.2.2
+
 
 dev_dependencies:
   flutter_test:
